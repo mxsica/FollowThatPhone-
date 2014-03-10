@@ -2,24 +2,13 @@ package com.babelbubble.followthatphone;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.text.AndroidCharacter;
 
-public class ThirdActivity extends Activity {
+public class ThirdActivity extends android.support.v4.app.FragmentActivity {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.third_activity);
-		
-//		getActionBar().setDisplayHomeAsUpEnabled(true);
-	}
-	
-//	@Override
-//	public boolean onOptionsItemSelected(MenuItem item) {
-//		if (item.getItemId()==android.R.id.home) {
-//			finish();
-//		}
-//		return super.onOptionsItemSelected(item);
-//	}
-	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.third_activity);
+    }
 }
